@@ -43,7 +43,9 @@
 
 
 fn main(){
+
     // char in rust::::::
+    
     let x: char = 'A';
     println!("x value is {}", x);
 
@@ -108,5 +110,20 @@ fn main(){
     println!("{}", greeting);
     let naan:String = greeting;
     println!("{}", naan);
+
+
+    let mut num: String = String::from("heello");
+    num.push_str("world");
+    println!("{}", num);
+
+    let mut  nan:String = num;
+    nan.push_str("234");
+    println!("{}", nan);
+
+
+    let mut rana: String =String::from ("welcome");
+    rana.push_str(" da  pundai");
+    println!("{}", rana)
+
 
 }
