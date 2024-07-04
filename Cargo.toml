@@ -2,5 +2,22 @@
 name = "Rust"
 version = "0.1.0"
 edition = "2021"
+default-run = "Struct" 
 
 [dependencies]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "Function"
+path = "src/Function.rs"
+
+[[bin]]
+name = "Ownership"
+path = "src/Ownership.rs"
+
+[[bin]]
+name = "Struct"
+path = "src/Struct.rs"

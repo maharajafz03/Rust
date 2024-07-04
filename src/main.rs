@@ -1,46 +1,4 @@
-
-// fn hello() {
-//     let mut x = 5;
-//     println!("The value of x is: {x}");
-//     x = 6;
-//     println!("The value of x is: {x}");
-// }
-
-
-
-// fn main() {
-//     let x = 5;
-
-//     let  x = x + 1;
-
-//     {
-//         let x = x * 2;
-//         println!("The value of x in the inner scope is: {x}");
-//     }
-
-//     println!("The value of x is: {x}");
-// }
-
-// fn main(){
-//     let greeting: &str = "hello world";
-//     println!("{}",greeting);
-// }
-
-
-// let mut greeting: String = String::from("hello world");
-
-//  greeting.push_str(String "mother fucker");
-
-//   println!("{}", greeting);
-
-
-// fn main(){
-//     let x: i32 = 42;
-//     let y: u64 = 100;
-//     println!("Signed Integer: {}", x);
-//     println!("Unsigned Integer: {}", y);
-// }
-
+// just learning about data_types & variables [imutable];;;
 
 fn main(){
 
@@ -124,6 +82,7 @@ fn main(){
     let mut rana: String =String::from ("welcome");
     rana.push_str(" da  pundai");
     println!("{}", rana)
+
 
 
 }
