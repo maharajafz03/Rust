@@ -2,7 +2,7 @@
 name = "Rust"
 version = "0.1.0"
 edition = "2021"
-default-run = "Struct" 
+default-run = "dummy" 
 
 [dependencies]
 
@@ -21,3 +21,7 @@ path = "src/Ownership.rs"
 [[bin]]
 name = "Struct"
 path = "src/Struct.rs"
+
+[[bin]]
+name = "dummy"
+path = "src/dummy.rs"
