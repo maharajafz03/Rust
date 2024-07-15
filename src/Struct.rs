@@ -31,7 +31,7 @@ let result = loop {
     counter += 1;
 
     if counter == 10763 {
-        break counter * 2;
+        break counter * 2;   //Solana rpc stuck..!!
     }   
 };
 

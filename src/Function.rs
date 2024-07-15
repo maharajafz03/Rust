@@ -36,3 +36,5 @@ fn con_tor(a: i32, b: i32) -> i32{
 fn cal_c(weight: f32, height: f32) -> f32{
     weight / height
 }
+
+
