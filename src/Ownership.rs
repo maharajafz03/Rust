@@ -45,3 +45,26 @@ fn calculate(s: &String) -> usize {
 //   println!("{}", x);
 }
 
+
+
+
+// pragama  ^0.8.0
+
+// contract danger{
+
+//     string public name = "daning";
+//     uint public number = 10;
+//     address public data ;
+
+
+
+
+//     function my_name (string memory _hello) public {
+//       name = _hello :
+//}
+
+    //   function view() public view returns(string memory) {
+    //     return name;
+    //   }
+// }
+
