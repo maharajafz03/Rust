@@ -2,7 +2,7 @@
 name = "Rust"
 version = "0.1.0"
 edition = "2021"
-default-run = "dummy" 
+default-run = "datatypes" 
 
 [dependencies]
 
@@ -25,3 +25,7 @@ path = "src/Struct.rs"
 [[bin]]
 name = "dummy"
 path = "src/dummy.rs"
+
+[[bin]]
+name = "datatypes"
+path = "src/data/datatypes.rs"
