@@ -2,7 +2,7 @@
 name = "Rust"
 version = "0.1.0"
 edition = "2021"
-default-run = "datatypes" 
+default-run = "Ownership" 
 
 [dependencies]
 
@@ -29,3 +29,11 @@ path = "src/dummy.rs"
 [[bin]]
 name = "datatypes"
 path = "src/data/datatypes.rs"
+
+[[bin]]
+name = "dd"
+path = "src/server/dd.rs"
+
+[[bin]]
+name = "mairu"
+path = "src/server/mairu.rs"
