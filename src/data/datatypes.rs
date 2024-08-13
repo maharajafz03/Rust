@@ -15,6 +15,7 @@ fn main() {
 
     //let name: String = f"hello";
 
+<<<<<<< HEAD
     let pi: f32 = 3.45;
    // float value
 
@@ -48,4 +49,10 @@ fn main() {
     let animal: &[&String] = &[&"maga".to_string() , &"raja".to_string()];
     println!("{:?}", animal)
 
+=======
+    println!("{}",number);
+    println!("{}",num1);
+    println!("{}",unsigned);
+    
+>>>>>>> 24f4bbbc369b353b44f5da73ab14cf59c6e37be0
 }
