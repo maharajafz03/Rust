@@ -94,13 +94,15 @@ fn main() {
       }
 
 
-      fn daa()  {
+     pub fn daa()  {
         let print1 = String::from("kunda pavanee");
         print!("{}", print1);
 
       }
 
-      let print = daa();
+     let print = daa();
 
       print!("{:?}", print);
+
+      pub let maek = 78;
 }

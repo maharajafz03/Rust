@@ -45,3 +45,7 @@ path = "src/data/function.rs"
 [[bin]]
 name = "shadow"
 path = "src/data/shadow.rs"
+
+[[bin]]
+name = "traits"
+path = "src/data/traits.rs"
