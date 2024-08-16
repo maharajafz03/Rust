@@ -37,3 +37,11 @@ path = "src/server/dd.rs"
 [[bin]]
 name = "mairu"
 path = "src/server/mairu.rs"
+
+[[bin]]
+name = "function"
+path = "src/data/function.rs"
+
+[[bin]]
+name = "shadow"
+path = "src/data/shadow.rs"
