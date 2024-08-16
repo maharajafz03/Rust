@@ -66,11 +66,41 @@ fn main() {
         println!("{:?}", array);
         
 
-      let manage =String::from("hello world");
+      let mut  manage =String::from("hello world");
+      manage =String::from("hi da");
       println!("{}", manage);   
 
       let  mairandi =" hello ";
       let mut  magaraja =mairandi.to_string();
       magaraja.push_str("di");
       println!("{}", magaraja);
+
+      let mut s = String::from("hello world");
+    
+      // Replace part of the String
+      s = s.replace("world", "Rust");
+      
+      println!("{}", s); // Output: "hello 
+     
+
+
+      let is_female = false ;
+      let kkk = 89;
+
+      if  is_female{
+        println!(" yes female {}", kkk )
+      }else {
+          println!(" not a female {}", kkk)
+      }
+
+
+      fn daa()  {
+        let print1 = String::from("kunda pavanee");
+        print!("{}", print1);
+
+      }
+
+      let print = daa();
+
+      print!("{:?}", print);
 }
