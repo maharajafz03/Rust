@@ -49,3 +49,12 @@ path = "src/data/shadow.rs"
 [[bin]]
 name = "traits"
 path = "src/data/traits.rs"
+
+
+[[bin]]
+name = "name"
+path = "src/data/name.rs"
+
+[[bin]]
+name = "new"
+path = "src/server/new.rs"

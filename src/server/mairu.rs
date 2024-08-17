@@ -14,10 +14,22 @@ fn main() {
     modify_string(&mut name);
 
     println!("{}", name); // Prints: welcome to the world fucking
+
+    struct Point<T, A> {
+        x: T,
+        y: A,
+    }
+    
+    
+        let point = Point { x: 5, y: true };
+        println!("Point: ({}, {})", point.x, point.y);
+    
+    
 }
 
 
 fn modify_string(name: &mut String) {
     name.push_str(" fucking ");
 }
+
 

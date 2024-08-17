@@ -104,5 +104,5 @@ fn main() {
 
       print!("{:?}", print);
 
-      pub let maek = 78;
+      
 }

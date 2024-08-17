@@ -1,3 +1,5 @@
+use std::string;
+
 #[derive(Debug)]
 struct Beh {
     name: String,
@@ -16,4 +18,26 @@ fn main() {
 
     // Print the vector using `{:?}` for debugging
     println!("{:?}", karni);
+
+
+    let mut vinayaga = vec![1,2,3,4];
+    vinayaga.push(76);
+
+    let mut siva =Vec::new();
+    siva.push(78);
+
+    println!("this is vinayaga {:?} and this is siva {:?}",vinayaga, siva);
+
+    // let mut mani = ["maga", "karan", "yamuna"];
+    // mani.push_str("sino");
+    // println!("{}", mani);
+    let mut string = String::from("hewllo blow");
+    string = String::from("magaraja");
+    string.push_str("yamuna");
+    println!("{}", string);
+
+    let gabesh = '!';
+    println!("{}", gabesh);
+
 }
+
