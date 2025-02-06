@@ -1,24 +1,15 @@
-fn main() {
-  println!("{}", fib(3));
+
+struct User{
+    name: String,
+    age: u8,
+
 }
 
-fn fib(num: i32) -> i32 {
-    let mut first = 0;
-    let mut second = 1;
+fn main() {
+   let user = User{
+    name: String::from("mother_fuckerz"),
+    age: 28,
+   };
 
-    if num == 0 {
-        return first;
-    }
-
-    if num ==  1 {
-        return second;
-    }
-
-    for _ in 0..(num -1) {
-        
-        let temp = second;
-        second = second + first;
-        first = temp;
-    }
-    return second;
+   println!("{}", user.name);
 }
