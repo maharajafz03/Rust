@@ -1,18 +1,17 @@
+
 pub fn server() {
-    println!("hello from server");
+    let a: Option<i32> = Some(67);
+    let b: Option<&str> = None;
 
-    let a = Some(String::from("hello_world"));
-    let b: Option<String> = None;
+   match a {
+     Some(val) => println!("{}", val),
+     _ => println!("empty")
+   }
 
-    match a{
-        Some(val) => println!("{}", val),
-        None => println!("not a value")
-    }
-
-    match b{
-        Some(val) => println!("{}", val),
-        None => println!("not a value")
-    }
+   match b {
+    Some(val) => println!("{}", val),
+    _ => println!("empty")
+  }
 
 
 }

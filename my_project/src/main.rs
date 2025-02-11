@@ -1,6 +1,7 @@
 
 mod server;
 mod latest;
+mod window;
 
 
 #[derive(Debug,Clone)]
@@ -15,5 +16,6 @@ fn main() {
     println!("{:?}", s);
     println!("{:?}", b);
     server::server();
-    latest::latest(); 
+    latest::latest();
+    window::window(); 
 }
