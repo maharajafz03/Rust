@@ -1,11 +1,11 @@
 pub fn window() {
-    
-    let mut winner = String::from("hello_gworld");
 
-    if &winner == "hello_world" {
-      winner =  winner.replace("hello_world", "hello_rusty");
-       println!("{}", winner)
-    }else {
-        println!("sister_fucker")
-    }
+        let number = Some(None); // Option<i32> with Some value
+    
+        match number {
+            Some(value) => println!("The number is: {}", value), // Pattern matching with Some()
+            None => println!("No value found"),                 // Handling None case
+        }
+    
+    
 }
